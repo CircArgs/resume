@@ -1,6 +1,6 @@
 # Nick Ouellet
 
-- <nicholas.p.ouellet@gmail.com>
+- nicholas.p.ouellet@gmail.com
 - (860) 591 - 9646
 - [circargs.github.io](circargs.github.io)
 - [linkedin.com/in/nicholas-ouellet](linkedin.com/in/nicholas-ouellet)

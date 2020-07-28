@@ -7,13 +7,13 @@ watch:
 
 name := $(shell grep "^\#" resume.md | head -1 | sed -e 's/^\#[[:space:]]*//' | xargs)
 
-resume.html: preamble.html resume.md postamble.html
+index.html: preamble.html resume.md postamble.html
 	cat preamble.html | sed -e 's/___NAME___/$(name)/' > $@
 	python -m markdown -x smarty resume.md >> $@
 	cat postamble.html >> $@
 
-resume.pdf: resume.html resume.css
-	weasyprint index.html NickOuelletResume.pdf
+resume.pdf: index.html resume.css
+	weasyprint index.html "$(name)Resume.pdf"
 
 clean:
-	rm -f index.html NickOuelletResume.pdf
+	rm -f index.html "$(name)Resume.pdf"

@@ -12,7 +12,7 @@ Data Scientist and Developer specializing in **Python** for Machine Learning and
 
 ### <span>Associate Data Science Researcher: Travelers - Claim Research</span> <span>April 2020 -- Present</span>
 
-- Create data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verication and segmentation
+- Create data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verification and segmentation
 - Integrate the inherently exploratory data science workflow into an agile environment
 - Develop models in AWS
 - Train transformer-based models to make claim recommendations on OCR'd legal documents

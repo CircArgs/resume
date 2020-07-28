@@ -1,6 +1,6 @@
 .PHONY: resume watch clean
 
-resume: resume.pdf resume.html
+resume: resume.pdf index.html
 
 watch:
 	ls *.md *.css | entr make resume
@@ -13,7 +13,7 @@ resume.html: preamble.html resume.md postamble.html
 	cat postamble.html >> $@
 
 resume.pdf: resume.html resume.css
-	weasyprint resume.html resume.pdf
+	weasyprint index.html NickOuelletResume.pdf
 
 clean:
-	rm -f resume.html resume.pdf
+	rm -f index.html NickOuelletResume.pdf

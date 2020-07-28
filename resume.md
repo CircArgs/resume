@@ -59,9 +59,16 @@ hand -->
 
 ## Education
 
-### <span>University of Connecticut, MS Mathematics</span> <span>September 2016 -- June 2017</span>
+### <span>University of Connecticut</span> <span>September 2016 -- June 2017</span>
 
-### <span>Brandeis University, Honors BA Mathematics, Minors Computer Science and Economics</span> <span>September 2012 -- December 2015</span>
+- Master of Science in Mathematics
+- GPA: 4.16/4.00
+
+### <span>Brandeis University</span> <span>September 2012 -- December 2015</span>
+
+- Bachelor of Arts, magna cum laude, Mathematics with honors
+- Minors: Computer Science, Economics
+- GPA: 3.72/4.00, Dean's List all semesters
 
 ## Skills
 

@@ -1,3 +1,5 @@
+# Please see [resume.md original repo](https://github.com/williamsmj/resume.md)
+
 # resume.md
 
 ![Resume](resume.png)

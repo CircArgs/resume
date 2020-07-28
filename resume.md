@@ -1,60 +1,70 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Richard Hendricks
+
+# Nick Ouellet
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- <richard.hendriks@mail.com>
-- (912) 555-4321
-- [richardhendricks.example.com](http://richardhendricks.example.com)
-- San Francisco, CA
+
+- <nicholas.p.ouellet@gmail.com>
+- (860) 591 - 9646
+- [circargs.github.io](circargs.github.io)
+- [linkedin.com/in/nicholas-ouellet](linkedin.com/in/nicholas-ouellet)
+- Hartford, CT
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
+
+Data Scientist and Developer specializing in **Python** for Machine Learning and Deep Learning and **Javascript** for Web Development.
 
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>CEO/President, Pied Piper</span> <span>Dec 2013 -- Dec 2014</span>
 
-Pied Piper is a multi-platform technology based on a proprietary universal
-compression algorithm that has consistently fielded high Weisman Scores™ that
-are not merely competitive, but approach the theoretical limit of lossless
-compression.
+### <span>Associate Data Science Researcher: Travelers - Claim Research</span> <span>April 2020 -- Present</span>
 
- - Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws
- - Successfully won Techcrunch Disrupt
- - Optimized an algorithm that holds the current world record for Weisman Scores
+- Create data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verication and segmentation
+- Integrate the inherently exploratory data science workflow into an agile environment
+- Develop models in AWS
+- Train transformer-based models to make claim recommendations on OCR'd legal documents
+- Manage an intern to develop model refresh and enhancement based on integrating unstructured text features and multiclass model consolidation
 
-### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
+### <span>Senior Data Science Consultant: Travelers - Claim Research</span> <span>April 2019 -- April 2020</span>
 
-Global movement of free coding clubs for young people.
- 
- - Awarded 'Teacher of the Month'
+- Perform EDA data and develop multiple predictive models at once
+- Develop software to facilitate productionalization of predictive models
+- Monitor production models to ensure consistency of operation
+- Create a prototype platform to aggregate social media sentiment analysis about the company
+- Train a deep learning model which won an enterprise-level national competition by Gartner
+
+### <span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 -- April 2019</span>
+
+- Design, and test Python machine learning models implemented using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration into current business workflow
+- Use advanced tools and platforms, including Hadoop, Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
+- Lead classes of 15+ participants to teach Python and general best practices for developing machine learning models
+- Perform data acquisition, preparation, and analysis
+- Acquire data via web scraping from numerous regulatory sources
 
 ## Projects
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
+### <span>Travelers Wildfire Detection Model</span> <span>November 2018 -- April 2019</span>
 
-A mapping engine that misguides you:
+- Train a vision model to identify homes affected by wildfires from aerial imagery
+- Develop a pipeline to train models on other catastrophe aerial imagery
 
-   - Won award at AIHacks 2016
-   - Built by all women team of newbie programmers
-   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+### <span>LluviaHealth.com</span> <span>November 2019 -- Present</span>
+
+- Develop a React web application to show the costs of medical procedures
+- Help people find Covid-19 testing in their area
 
 ## Education
 
-### <span>University of Oklahoma, BA Information Technology</span> <span>2011 -- 2014</span>
+### <span>University of Connecticut, MS Mathematics</span> <span>September 2016 -- June 2017</span>
 
-  - GPA 4.0
-  - DB1101 - Basic SQL
-  - CS2011 - Java Introduction
+### <span>Brandeis University, Honors BA Mathematics, Minors Computer Science and Economics</span> <span>September 2012 -- December 2015</span>
 
 ## Skills
 
- - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
+- Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo
+- Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS
+- General: Rust, Lua, Docker, AWS, MongoDB, Neo4J

@@ -63,4 +63,4 @@ Data Scientist and Developer specializing in Python for Machine Learning and Dee
 
 - Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo
 - Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS
-- General: Rust, Lua, Docker, AWS, MongoDB, Neo4J, Git, Github (+ Actions)
+- General: Rust, Lua, Docker, AWS, MongoDB, Neo4J, Git, Github (+ Actions), Shell (Bash + common tools), Make

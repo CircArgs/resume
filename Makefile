@@ -18,3 +18,7 @@ resume.pdf: index.html resume.css
 
 clean:
 	rm -f index.html "$(freespace_name)_Resume.pdf"
+
+publish: resume.pdf index.html
+	git add . && git commit -m "$(m)" && git push
+	

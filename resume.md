@@ -2,8 +2,8 @@
 
 - nicholas.p.ouellet@gmail.com
 - (860) 591 - 9646
-- [website](https://www.circargs.github.io)
-- [linkedin](https://www.linkedin.com/in/nicholas-ouellet)
+- [https://www.circargs.github.io](https://www.circargs.github.io)
+- [https://www.linkedin.com/in/nicholas-ouellet](https://www.linkedin.com/in/nicholas-ouellet)
 - Hartford, CT
 
 Data Scientist and Developer specializing in **Python** for Machine Learning and Deep Learning and **Javascript** for Web Development.

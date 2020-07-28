@@ -1,9 +1,4 @@
-<!-- The (first) h1 will be used as the <title> of the HTML page -->
-
 # Nick Ouellet
-
-<!-- The unordered list immediately after the h1 will be formatted on a single
-line. It is intended to be used for contact details -->
 
 - <nicholas.p.ouellet@gmail.com>
 - (860) 591 - 9646
@@ -11,15 +6,9 @@ line. It is intended to be used for contact details -->
 - [linkedin.com/in/nicholas-ouellet](linkedin.com/in/nicholas-ouellet)
 - Hartford, CT
 
-<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
-
 Data Scientist and Developer specializing in **Python** for Machine Learning and Deep Learning and **Javascript** for Web Development.
 
 ## Experience
-
-<!-- You have to wrap the "left" and "right" half of these headings in spans by
-hand -->
 
 ### <span>Associate Data Science Researcher: Travelers - Claim Research</span> <span>April 2020 -- Present</span>
 

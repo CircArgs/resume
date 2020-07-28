@@ -6,14 +6,15 @@ watch:
 	ls *.md *.css | entr make resume
 
 name := $(shell grep "^\#" resume.md | head -1 | sed -e 's/^\#[[:space:]]*//' | xargs)
+freespace_name := $(shell grep "^\#" resume.md | head -1 | sed -e 's/^\#[[:space:]]*//' | tr ' ' '_' | xargs)
 
-index.html: preamble.html resume.md postamble.html
-	cat preamble.html | sed -e 's/___NAME___/$(name)/' > $@
+index.html: preamble resume.md postamble
+	cat preamble | sed -e 's/___NAME___/$(name)/' | sed -e 's/___FREESPACE_NAME___/$(freespace_name)/' > $@
 	python -m markdown -x smarty resume.md >> $@
-	cat postamble.html >> $@
+	cat postamble >> $@
 
 resume.pdf: index.html resume.css
-	weasyprint index.html "$(name)Resume.pdf"
+	weasyprint index.html "$(freespace_name)_Resume.pdf"
 
 clean:
-	rm -f index.html "$(name)Resume.pdf"
+	rm -f index.html "$(freespace_name)_Resume.pdf"

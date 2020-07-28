@@ -3,7 +3,7 @@ body {
   background: #eeeeee;
   font: 1.1em "Times New Roman";
   line-height: 1.2;
-  margin: 40px 0;
+  margin: 70px 0 40px 0;
 }
 #resume {
   margin: 0 auto;
@@ -65,12 +65,18 @@ h1 + ul + p {
   margin: 1em 0;
 }
 #pdflink {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
   background: blue;
-
+  /* -webkit-animation: 5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  /*animation: 5s linear infinite condemned_blink_effect; */
   margin: auto;
 }
 #pdflink:hover {
@@ -133,5 +139,30 @@ h1 + ul + p {
     background: none;
     box-shadow: none;
     -webkit-box-shadow: none;
+  }
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
   }
 }

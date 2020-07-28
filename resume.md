@@ -74,4 +74,4 @@ hand -->
 
 - Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo
 - Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS
-- General: Rust, Lua, Docker, AWS, MongoDB, Neo4J
+- General: Rust, Lua, Docker, AWS, MongoDB, Neo4J, Git, Github (+ Actions)

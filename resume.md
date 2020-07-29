@@ -2,7 +2,7 @@
 
 - nick@ouellet.dev
 - (860) 591 - 9646
-- [ouellet.dev](https://www.ouellet.dev)
+- [www.ouellet.dev](https://www.ouellet.dev)
 - [linkedin.com/in/nicholas-ouellet](https://www.linkedin.com/in/nicholas-ouellet)
 - Hartford, CT
 

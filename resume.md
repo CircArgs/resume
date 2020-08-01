@@ -1,6 +1,6 @@
 # Nick Ouellet
 
-- nick@ouellet.dev
+- [nick@ouellet.dev](mailto:nick@ouellet.dev)
 - (860) 591 - 9646
 - [www.ouellet.dev](https://www.ouellet.dev)
 - [linkedin.com/in/nicholas-ouellet](https://www.linkedin.com/in/nicholas-ouellet)

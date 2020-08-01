@@ -6,5 +6,7 @@
     <link rel="stylesheet" type="text/css" href="resume.css" />
   </head>
   <body>
-    <div id="pdflink"><a href="https://github.com/CircArgs/resume/raw/master/___FREESPACE_NAME____Resume.pdf">Get the PDF!</a></div>
+    <div id="homepagelink"><a alt="Got back to Nick Ouellet homepage" href="https://www.ouellet.dev">Go to www.Ouellet.dev</a></div>
+    <div id="pdflink"><a alt="download a prerendered pdf version of this page" href="https://github.com/CircArgs/resume/raw/master/___FREESPACE_NAME____Resume.pdf">Get the PDF!</a></div>
+    
     <div id="resume">

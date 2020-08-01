@@ -64,11 +64,12 @@ h1 + ul > li:last-child:after {
 h1 + ul + p {
   margin: 1em 0;
 }
-#pdflink {
+#pdflink,
+#homepagelink {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
+  left: 50vw;
+  width: 50vw;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -82,7 +83,8 @@ h1 + ul + p {
 #pdflink:hover {
   background: grey;
 }
-#pdflink a {
+#pdflink a,
+#homepagelink a {
   font-size: 2rem;
   text-align: center;
   color: red;
@@ -90,11 +92,29 @@ h1 + ul + p {
   height: 100%;
   margin: auto;
 }
+#pdflink:hover a {
+  color: yellow;
+}
+#homepagelink {
+  background: black;
+  left: 0;
+}
+#homepagelink:hover {
+  background: white;
+}
+#homepagelink:hover a {
+  color: black;
+}
+#homepagelink a {
+  color: white;
+}
 
 @media print {
-  #pdflink {
+  #pdflink,
+  #homepagelink {
     display: none;
   }
+
   body {
     font-size: 10pt;
     margin: 0;

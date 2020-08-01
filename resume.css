@@ -67,6 +67,7 @@ h1 + ul + p {
 #header {
   position: fixed;
   top: 0;
+  width: 100vw;
 }
 #pdflink,
 #homepagelink {

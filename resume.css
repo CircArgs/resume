@@ -3,10 +3,10 @@ body {
   background: #eeeeee;
   font: 1.1em "Times New Roman";
   line-height: 1.2;
-  margin: 70px 0 40px 0;
+  margin: 100px 0 40px 0;
 }
 #resume {
-  margin: 0 auto;
+  margin: 40px auto;
   max-width: 800px;
   padding: 40px 60px;
   background: #ffffff;
@@ -64,17 +64,21 @@ h1 + ul > li:last-child:after {
 h1 + ul + p {
   margin: 1em 0;
 }
+#header {
+  position: fixed;
+  top: 0;
+}
 #pdflink,
 #homepagelink {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 50vw;
   width: 50vw;
+  min-height: 40px;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
   background: blue;
   /* -webkit-animation: 5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
   /*animation: 5s linear infinite condemned_blink_effect; */
@@ -85,7 +89,7 @@ h1 + ul + p {
 }
 #pdflink a,
 #homepagelink a {
-  font-size: 2rem;
+  font-size: 2.5vw;
   text-align: center;
   color: red;
   width: 100%;
@@ -110,8 +114,7 @@ h1 + ul + p {
 }
 
 @media print {
-  #pdflink,
-  #homepagelink {
+  #header {
     display: none;
   }
 

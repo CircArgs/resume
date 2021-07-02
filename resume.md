@@ -21,7 +21,7 @@ Data Scientist and Developer focused on AI and Web Development.
 ### <span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 -- March 2021</span>
 
 - Create data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verification and segmentation
-- Integrate the inherently exploratory data science workflow into an agile environment
+- Integrate the inherently exploratory data science workflow into a complete CI/CD development cycle
 - Manage an intern to develop model refresh and enhancement based on integrating unstructured text features and multiclass model consolidation
 
 ### <span>Senior Data Science Consultant: Travelers - Claim Research</span> <span>April 2019 -- April 2020</span>
@@ -32,8 +32,8 @@ Data Scientist and Developer focused on AI and Web Development.
 
 ### <span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 -- April 2019</span>
 - Design and test Python machine learning models implemented using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration into current business workflow
-- Use advanced tools and platforms, including Hadoop, Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
-- Lead classes of 15+ participants to teach Python and general practices for developing machine learning models
+- Use advanced tools and platforms, including AWS, Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
+- Lead classes of 15+ participants to teach software development best practices with respect to machine learning modelling development and testing
 
 ## Public Company Projects
 
@@ -64,5 +64,5 @@ Data Scientist and Developer focused on AI and Web Development.
 ## Skills
 
 - Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo
-- Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS
+- Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, Spark, SAS
 - General: Rust, Lua, Docker, AWS, MongoDB, Neo4J, Git, Github (+ Actions), Shell (Bash + common tools), Make

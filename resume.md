@@ -14,9 +14,9 @@ Data Scientist and Developer focused on AI and Web Development.
 
 - Manage exploration of techniques to model on extremely long sequences of text in supervised and unsupervised fashions
 - Develop deep learning language models for coverage assessment on domain-specific legal documents
-- Deploy multiple models corrdinated in AWS with ElasticSearch to process documents and classify them
-- Coordinate deployment pipelines with Docker containers
+- Deploy multiple models coordinated in AWS with Docker containers and ElasticSearch to process documents and classify them
 - Create deep learning vision solutions to predict catastrophy event severity from aerial imagery
+- Build a geospatial imagery pipeline to pull from a tiled image API with geocoding and spatial manipulation for an expansive aerial imagery EDA
 
 ### <span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 -- March 2021</span>
 

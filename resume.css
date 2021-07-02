@@ -1,7 +1,10 @@
+*{
+  font-size: 99%;
+}
 body {
   color: #000000;
   background: #eeeeee;
-  font: 1.1em "Times New Roman";
+  font: 1em "Times New Roman";
   line-height: 1.2;
   margin: 100px 0 40px 0;
 }

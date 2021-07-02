@@ -6,7 +6,7 @@
 - [linkedin.com/in/nicholas-ouellet](https://www.linkedin.com/in/nicholas-ouellet)
 - Hartford, CT
 
-Data Scientist and Developer focused on Python for Machine Learning and Deep Learning and Javascript for Web Development and Rust.
+Data Scientist and Developer focused on AI and Web Development.
 
 ## Experience
 

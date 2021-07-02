@@ -6,45 +6,47 @@
 - [linkedin.com/in/nicholas-ouellet](https://www.linkedin.com/in/nicholas-ouellet)
 - Hartford, CT
 
-Data Scientist and Developer specializing in Python for Machine Learning and Deep Learning and Javascript for Web Development.
+Data Scientist and Developer focused on Python for Machine Learning and Deep Learning and Javascript for Web Development and Rust.
 
 ## Experience
 
-### <span>Associate Data Science Researcher: Travelers - Claim Research</span> <span>April 2020 -- Present</span>
+### <span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 -- Present</span>
+
+- Manage exploration of techniques to model on extremely long sequences of text in supervised and unsupervised fashions
+- Develop deep learning language models for coverage assessment on domain-specific legal documents
+- Deploy multiple models corrdinated in AWS with ElasticSearch to process documents and classify them
+- Coordinate deployment pipelines with Docker containers
+- Create deep learning vision solutions to predict catastrophy event severity from aerial imagery
+
+### <span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 -- March 2021</span>
 
 - Create data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verification and segmentation
 - Integrate the inherently exploratory data science workflow into an agile environment
-- Develop models in AWS
-- Train transformer-based models to make claim recommendations on OCR'd legal documents
 - Manage an intern to develop model refresh and enhancement based on integrating unstructured text features and multiclass model consolidation
 
 ### <span>Senior Data Science Consultant: Travelers - Claim Research</span> <span>April 2019 -- April 2020</span>
-
-- Perform EDA data and develop multiple predictive models at once
-- Develop software to facilitate productionalization of predictive models
+- Perform EDA and software development to facilitate productionalization of predictive models
 - Monitor production models to ensure consistency of operation
 - Create a prototype platform to aggregate social media sentiment analysis about the company
-- Train a deep learning model which won an enterprise-level national competition by Gartner
+- Train a deep learning vision model which won an enterprise-level national competition by Gartner
 
 ### <span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 -- April 2019</span>
-
-- Design, and test Python machine learning models implemented using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration into current business workflow
+- Design and test Python machine learning models implemented using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration into current business workflow
 - Use advanced tools and platforms, including Hadoop, Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
-- Lead classes of 15+ participants to teach Python and general best practices for developing machine learning models
-- Perform data acquisition, preparation, and analysis
-- Acquire data via web scraping from numerous regulatory sources
+- Lead classes of 15+ participants to teach Python and general practices for developing machine learning models
 
-## Projects
+## Public Company Projects
 
 ### <span>Travelers Wildfire Detection Model</span> <span>November 2018 -- April 2019</span>
 
 - Train a vision model to identify homes affected by wildfires from aerial imagery
 - Develop a pipeline to train models on other catastrophe aerial imagery
 
-### <span>LluviaHealth.com</span> <span>November 2019 -- Present</span>
+### <span>FrankPrice</span> <span>November 2019 -- Present</span>
 
-- Develop a React web application to show the costs of medical procedures
+- Develop React web and mobile applications to show the costs of medical procedures
 - Help people find Covid-19 testing in their area
+- Utilize PostgresSQL and AWS for deployment
 
 ## Education
 

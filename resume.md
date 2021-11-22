@@ -11,59 +11,48 @@ Data Scientist and Developer building data and modelling tooling and web fronten
 ## Experience
 
 ### <span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 -- Present</span>
-
-- Develop prediction platform utilizing ElasticSearch backend with React frontend deployed in AWS for productionalizing and monitoring deep learning models  
+- Develop prediction platform utilizing ElasticSearch backend with React frontend deployed in AWS with Docker for productionalizing and monitoring a deep learning system  
 - Manage exploration of techniques to model on extremely long sequences of text in supervised and unsupervised fashions
 - Make tooling for deep learning vision and language model unsupervised creation and evaluation
-- Construct a geospatial imagery downloader and modelling pipeline to pull from a tiled image API with geocoding and spatial manipulation for an expansive aerial imagery EDA and robust model creation
-### <span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 -- March 2021</span>
+- Construct a modelling pipeline to pull from a tiled image API with geocoding and spatial manipulation for aerial imagery EDA and robust model creation
 
+### <span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 -- March 2021</span>
 - Created data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verification and segmentation
-- Deployed the first claim realtime model in a container environment founding best practices for production code architecture, realtime model APIs and operational reporting data storage and retrieval
-- Integrated the inherently exploratory data science workflow into a complete CI/CD development cycle
-- Managed an intern to develop model refresh and enhancement based on integrating unstructured text features and multiclass model consolidation
-- Built a spark tool to extract and parse text data from Hadoop creating tokens for downstream modelling
+- Integrated the inherently exploratory data science workflow into a CI/CD development cycle
+- Managed an intern to develop a model refresh and enhancement based on integrating unstructured text features and multiclass model consolidation
+- Built a tool to extract and parse text data from Hadoop creating tokens for downstream modelling
 
 ### <span>Senior Data Science Consultant: Travelers - Claim Research</span> <span>April 2019 -- April 2020</span>
 - Performed EDA and software development to facilitate productionalization of predictive models
+- Deployed the first claim realtime model in a container environment founding best practices for production code architecture, realtime model APIs and operational reporting data storage and retrieval
 - Monitored production models to ensure consistency of operation
 - Created a prototype platform to aggregate social media sentiment analysis about the company
 - Trained a deep learning vision model which won an enterprise-level national competition by Gartner
-- Wrote a fetching tool to facilitate extracting table metadata and running queries against primary databases 
+- Developed a fetching tool to facilitate extracting table metadata and running queries against primary databases 
 
 ### <span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 -- April 2019</span>
 - Designed and test Python machine learning models implemented using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration into current business workflow
-- Used advanced tools and platforms, including AWS, Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
+- Used advanced tools and platforms, including Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
 - Led classes of 15+ participants to teach software development best practices with respect to machine learning modelling development and testing
 
 ## Public Company Projects
 
 ### <span>Travelers Wildfire Detection Model</span> <span>November 2018 -- April 2019</span>
-
-- Train a vision model to identify homes affected by wildfires from aerial imagery
-- Develop a pipeline to train models on other catastrophe aerial imagery
-
-### <span>FrankPrice</span> <span>November 2019 -- Present</span>
-
-- Develop React web and mobile applications to show the costs of medical procedures
-- Help people find Covid-19 testing in their area
-- Utilize PostgresSQL and AWS for deployment
+- Trained a vision model to identify homes affected by wildfires from aerial imagery
+- Developed a pipeline to train models on other catastrophe aerial imagery
 
 ## Education
 
 ### <span>University of Connecticut</span> <span>September 2016 -- June 2017</span>
-
 - Master of Science in Mathematics
 - GPA: 4.16/4.00
 
 ### <span>Brandeis University</span> <span>September 2012 -- December 2015</span>
-
 - Bachelor of Arts, magna cum laude, Mathematics with honors
 - Minors: Computer Science, Economics
 - GPA: 3.72/4.00, Dean's List all semesters
 
 ## Skills
-
-- Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo
-- Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, Spark, SAS
-- General: Rust, Lua, Docker, AWS, MongoDB, ElasticSearch, Neo4J, Git, Github (+ Actions), Shell (Bash + common tools), Make
+- Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo, Flask, 
+- Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS
+- General: Rust, Lua, Docker, AWS, MongoDB, ElasticSearch, Neo4J (w/ Neo4JGraphql), Git, Github (+ Actions), Shell (Bash + common tools), Make

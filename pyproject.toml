@@ -6,6 +6,8 @@ authors = ["CircArgs <quebecname@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+Markdown = "^3.3.7"
+weasyprint = "^55.0"
 
 [tool.poetry.dev-dependencies]
 

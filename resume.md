@@ -10,11 +10,15 @@ Data Scientist and Developer building data and modelling tooling and web fronten
 
 ## Experience
 
-### <span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 -- Present</span>
-- Develop prediction platform utilizing ElasticSearch backend with React frontend deployed in AWS with Docker for productionalizing and monitoring a deep learning system  
-- Manage exploration of techniques to model on extremely long sequences of text in supervised and unsupervised fashions
-- Make tooling for deep learning vision and language model unsupervised creation and evaluation
-- Construct a modelling pipeline to pull from a tiled image API with geocoding and spatial manipulation for aerial imagery EDA and robust model creation
+### <span>Manager of Data Science: Travelers - Personal Insurance AI</span> <span>March 2022 -- Present</span>
+- Developing in-house semantic search engine with deep learning based natural language processing
+- Building a search frontend with Streamlit and a backend in FastAPI
+
+### <span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 -- March 2022</span>
+- Developed prediction platform utilizing ElasticSearch backend with React frontend deployed in AWS with Docker for productionalizing and monitoring a deep learning system  
+- Managed exploration of techniques to model on extremely long sequences of text in supervised and unsupervised fashions
+- Made tooling for deep learning vision and language model unsupervised creation and evaluation
+- Constructed a modelling pipeline to pull from a tiled image API with geocoding and spatial manipulation for aerial imagery EDA and robust model creation
 
 ### <span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 -- March 2021</span>
 - Created data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verification and segmentation

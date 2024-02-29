@@ -1,16 +1,128 @@
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Nick Ouellet</title>
-    <link rel="stylesheet" type="text/css" href="resume.css" />
-  </head>
-  <body>
-    <div id="header">
-    <div id="homepagelink"><a alt="Go back to Nick Ouellet homepage" href="https://www.ouellet.dev">Go to www.Ouellet.dev</a></div>
-    <div id="pdflink"><a alt="download a prerendered pdf version of this page" href="https://github.com/CircArgs/resume/raw/master/Nick_Ouellet_Resume.pdf">Get the PDF!</a></div>
-    </div>
-    <div id="resume">
+<head>
+<meta charset="UTF-8">
+<title>Nick Ouellet</title>
+<style>
+body {
+    color: #000000;
+    background: #EEEEEE;
+    font: 1.1em "Times New Roman";
+    line-height: 1.2;
+    margin: 40px 0;
+}
+#resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+h3 {
+    font-size: 100%;
+    margin: 0.8em 0 0.3em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    }
+ul {
+    padding: 0;
+    margin: 0 1.5em;
+    }
+/* ul immediately after h1 = contact list */
+h1 + ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+h1 + ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+h1 + ul > li:after {
+    content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+    content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+    margin: 1em 0;
+}
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+    #resume {
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    /* Do not underline abbr tags in PDF */
+    abbr {
+        text-decoration: none;
+        font-variant: none;
+    }
+    /* Make links black in PDF */
+    /* Move this outside the print block to apply this in HTML too */
+    a, a:link, a:visited, a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+@page {
+    /* Change margins and paper size of PDF */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+    size: letter;
+    margin: 0.5in 0.8in;
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        background: #FFFFFF !important;
+    }
+    #resume {
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
 <h1>Nick Ouellet</h1>
 <ul>
 <li><a href="mailto:nick@ouellet.dev">nick@ouellet.dev</a></li>
@@ -19,12 +131,20 @@
 <li><a href="https://www.linkedin.com/in/nicholas-ouellet">linkedin.com/in/nicholas-ouellet</a></li>
 <li>Hartford, CT</li>
 </ul>
-<p>Data Scientist and Developer building data and modelling tooling and web frontends.</p>
+<p>ML Engineer working with tooling, Deep Learning and Generative AI.</p>
 <h2>Experience</h2>
-<h3><span>Manager of Data Science: Travelers - Personal Insurance AI</span> <span>March 2022 &ndash; Present</span></h3>
+<h3><span>Director of Data Science: Travelers - Personal Insurance AI</span> <span>March 2023 &ndash; Present</span></h3>
+<ul>
+<li>Develop customer-facing retrieval solutions for insurance comprehension and site navigation</li>
+<li>Lead generative AI research applications for underwriting and discovery</li>
+<li>Lead a team of data scientists on generative AI and deep learning research</li>
+</ul>
+<h3><span>Manager of Data Science: Travelers - Personal Insurance AI</span> <span>March 2022 &ndash; March 2023</span></h3>
 <ul>
 <li>Developing in-house semantic search engine with deep learning based natural language processing</li>
 <li>Building a search frontend with Streamlit and a backend in FastAPI</li>
+<li>Research AutoML Topic Modelling potential</li>
+<li>Train deep vision models on millions of images with unique channel distillation procedures</li>
 </ul>
 <h3><span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 &ndash; March 2022</span></h3>
 <ul>
@@ -77,7 +197,7 @@
 <ul>
 <li>Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo, Flask, </li>
 <li>Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS</li>
-<li>General: Rust, Lua, Docker, AWS, MongoDB, ElasticSearch, Neo4J (w/ Neo4JGraphql), Git, Github (+ Actions), Shell (Bash + common tools), Make</li>
+<li>General: Rust, Lua, Docker, AWS, Postgres, MongoDB, ElasticSearch, Neo4J (w/ Neo4JGraphql), Git, Github (+ Actions), Make</li>
 </ul></div>
 </body>
 </html>

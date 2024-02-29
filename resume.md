@@ -9,10 +9,16 @@
 Data Scientist and Developer building data and modelling tooling and web frontends.
 
 ## Experience
+### <span>Director of Data Science: Travelers - Personal Insurance AI</span> <span>March 2023 -- Present</span>
+- Develop customer-facing retrieval solutions for insurance comprehension and site navigation
+- Lead generative AI research applications for underwriting and discovery
+- Lead a team of data scientists on generative AI and deep learning research
 
-### <span>Manager of Data Science: Travelers - Personal Insurance AI</span> <span>March 2022 -- Present</span>
+### <span>Manager of Data Science: Travelers - Personal Insurance AI</span> <span>March 2022 -- March 2023</span>
 - Developing in-house semantic search engine with deep learning based natural language processing
 - Building a search frontend with Streamlit and a backend in FastAPI
+- Research AutoML Topic Modelling potential
+- Train deep vision models on millions of images with unique channel distillation procedures
 
 ### <span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 -- March 2022</span>
 - Developed prediction platform utilizing ElasticSearch backend with React frontend deployed in AWS with Docker for productionalizing and monitoring a deep learning system  

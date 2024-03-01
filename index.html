@@ -3,120 +3,200 @@
 <meta charset="UTF-8">
 <title>Nick Ouellet</title>
 <style>
+*{
+  font-size: 100%;
+}
 body {
-    color: #000000;
-    background: #EEEEEE;
-    font: 1.1em "Times New Roman";
-    line-height: 1.2;
-    margin: 40px 0;
+  color: #000000;
+  background: #eeeeee;
+  font: 1em "Times New Roman";
+  line-height: 1.2;
+  margin: 100px 0 40px 0;
 }
 #resume {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 40px 60px;
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 2px 2px 4px #AAAAAA;
-    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 40px 60px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px 4px #aaaaaa;
+  -webkit-box-shadow: 2px 2px 4px #aaaaaa;
 }
 h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 200%;
-    margin: 0;
-    padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
 }
 h2 {
-    border-bottom: 1px solid #000000;
-    text-transform: uppercase;
-    font-size: 130%;
-    margin: 1em 0 0 0;
-    padding: 0;
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+  font-size: 130%;
+  margin: 1em 0 0 0;
+  padding: 0;
 }
 h3 {
-    font-size: 100%;
-    margin: 0.8em 0 0.3em 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  font-size: 90%;
+  margin: 0.8em 0 0.3em 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 p {
-    margin: 0 0 0.5em 0;
-    padding: 0;
-    }
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
 ul {
-    padding: 0;
-    margin: 0 1.5em;
-    }
+  padding: 0;
+  margin: 0 1.5em;
+}
 /* ul immediately after h1 = contact list */
 h1 + ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    }
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 h1 + ul > li {
-    display: inline;
-    white-space: pre;
-    list-style-type: none;
+  display: inline;
+  white-space: pre;
+  list-style-type: none;
 }
 h1 + ul > li:after {
-    content: "  \2022  ";
+  content: "  \2022  ";
 }
 h1 + ul > li:last-child:after {
-    content: "";
+  content: "";
 }
 /* p immediately after contact list = summary */
 h1 + ul + p {
-    margin: 1em 0;
+  margin: 1em 0;
 }
+#header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+#pdflink,
+#homepagelink {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  width: 50vw;
+  min-height: 40px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  /* -webkit-animation: 5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  /*animation: 5s linear infinite condemned_blink_effect; */
+  margin: auto;
+}
+#pdflink:hover {
+  background: grey;
+}
+#pdflink a,
+#homepagelink a {
+  font-size: 2.5vw;
+  text-align: center;
+  color: red;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#pdflink:hover a {
+  color: yellow;
+}
+#homepagelink {
+  background: black;
+  left: 0;
+}
+#homepagelink:hover {
+  background: white;
+}
+#homepagelink:hover a {
+  color: black;
+}
+#homepagelink a {
+  color: white;
+}
+
 @media print {
-    body {
-        font-size: 10pt;
-        margin: 0;
-        padding: 0;
-        background: none;
-    }
-    #resume {
-        margin: 0;
-        padding: 0;
-        border: 0px;
-        background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    /* Do not underline abbr tags in PDF */
-    abbr {
-        text-decoration: none;
-        font-variant: none;
-    }
-    /* Make links black in PDF */
-    /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
-        color: #000000;
-        text-decoration: underline;
-    }
+  #header {
+    display: none;
+  }
+
+  body {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  /* Make links black in PDF */
+  /* Move this outside the print block to apply this in HTML too */
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
 }
 @page {
-    /* Change margins and paper size of PDF */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: letter;
-    margin: 0.5in 0.8in;
+  /* Change margins and paper size of PDF */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+  size: letter;
+  margin: 0.4in 0.75in;
 }
 @media screen and (max-width: 800px) {
-    body {
-        font-size: 16pt;
-        margin: 0;
-        padding: 0;
-        background: #FFFFFF !important;
-    }
-    #resume {
-        margin: 0;
-        padding: 1em;
-        border: 0px;
-        background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 </style>
@@ -131,11 +211,12 @@ h1 + ul + p {
 <li><a href="https://www.linkedin.com/in/nicholas-ouellet">linkedin.com/in/nicholas-ouellet</a></li>
 <li>Hartford, CT</li>
 </ul>
-<p>ML Engineer working with tooling, Deep Learning and Generative AI.</p>
+<p>Data Scientist and Developer building data and modelling tooling and web frontends.</p>
 <h2>Experience</h2>
 <h3><span>Director of Data Science: Travelers - Personal Insurance AI</span> <span>March 2023 &ndash; Present</span></h3>
 <ul>
 <li>Develop customer-facing retrieval solutions for insurance comprehension and site navigation</li>
+<li>Multimodal vision-language research and tuning for zero-shot applications </li>
 <li>Lead generative AI research applications for underwriting and discovery</li>
 <li>Lead a team of data scientists on generative AI and deep learning research</li>
 </ul>
@@ -197,7 +278,7 @@ h1 + ul + p {
 <ul>
 <li>Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo, Flask, </li>
 <li>Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS</li>
-<li>General: Rust, Lua, Docker, AWS, Postgres, MongoDB, ElasticSearch, Neo4J (w/ Neo4JGraphql), Git, Github (+ Actions), Make</li>
+<li>General: Rust, Lua, Docker, AWS, MongoDB, ElasticSearch, Neo4J (w/ Neo4JGraphql), Git, Github (+ Actions), Shell (Bash + common tools), Make</li>
 </ul></div>
 </body>
 </html>

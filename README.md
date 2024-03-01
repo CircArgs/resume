@@ -1,8 +1,6 @@
-Based on [williamsmj/resume.md](https://github.com/williamsmj/resume.md)
-
 # resume
 
-- `pip install markdown weasyprint`
+- `pip install markdown`
 - edit `readme.md` as the basis for the resume
 - run `make resume` to build html and pdf versions `index.html` and `__first_h1_markdown_most_likely_your_name__.pdf`
 - or `make publish` to push to github as well

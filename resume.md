@@ -44,7 +44,7 @@ Data Scientist and Developer building data and modelling tooling and web fronten
 
 ## Public Company Projects
 
-### <span>Travelers Wildfire Detection Model and Wind Detection Model</span> <span>November 2018 -- April 2019 and November 2020 -- April 2021</span>
+### <span>Travelers Wildfire Detection Model and Wind Detection Model</span> <span>November 2018 -- April 2019 and November 2021 -- April 2022</span>
 - Trained a vision model to identify homes affected by wildfires from aerial imagery
 - Developed a pipeline to train models on other catastrophe aerial imagery
 - Trained a vision model and developed a distilled DINO backbone for identifying wind damage sevity from catastrophe events

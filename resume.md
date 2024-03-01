@@ -34,17 +34,13 @@ Data Scientist and Developer building data and modelling tooling and web fronten
 - Built a tool to extract and parse text data from Hadoop creating tokens for downstream modelling
 
 ### <span>Senior Data Science Consultant: Travelers - Claim Research</span> <span>April 2019 -- April 2020</span>
-- Performed EDA and software development to facilitate productionalization of predictive models
-- Deployed the first claim realtime model in a container environment founding best practices for production code architecture, realtime model APIs and operational reporting data storage and retrieval
-- Monitored production models to ensure consistency of operation
-- Created a prototype platform to aggregate social media sentiment analysis about the company
-- Trained a deep learning vision model which won an enterprise-level national competition by Gartner
-- Developed a fetching tool to facilitate extracting table metadata and running queries against primary databases 
+- Led team to deploy the first real-time claim model in a container environment, establishing best practices for production code architecture, real-time model APIs, and operational reporting data storage/retrieval
+- Monitored production models to ensure consistent operation and developed a prototype platform for aggregating social media sentiment analysis about the company
+- Trained a deep learning vision model that won an enterprise-level national competition (Gartner)
+- Designed and implemented a tool for extracting table metadata and executing queries against primary databases.
 
 ### <span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 -- April 2019</span>
-- Designed and test Python machine learning models implemented using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration into current business workflow
-- Used advanced tools and platforms, including Spark, Python, and SAS, to perform exploratory data analysis to determine business viability
-- Led classes of 15+ participants to teach software development best practices with respect to machine learning modelling development and testing
+- Designed and implemented Python machine learning models using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration, utilizing Spark, Python, and SAS for data analysis, and leading trainings on software development best practices for machine learning.
 
 ## Public Company Projects
 

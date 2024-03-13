@@ -10,6 +10,7 @@ Data Scientist and Developer building data and modelling tooling and web fronten
 
 ## Experience
 ### <span>Director of Data Science: Travelers - Personal Insurance AI</span> <span>March 2023 -- Present</span>
+- Create prompt techniques and pipelines for solving complex and multi-stage reasoning problems for underwriters
 - Develop customer-facing retrieval solutions for insurance comprehension and site navigation
 - Multimodal vision-language research and tuning for zero-shot applications 
 - Lead generative AI research applications for underwriting and discovery

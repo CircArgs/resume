@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nick Ouellet</title>
+<style>
+*{
+  font-size: 100%;
+}
+body {
+  color: #000000;
+  background: #eeeeee;
+  font: 1em "Times New Roman";
+  line-height: 1.2;
+  margin: 100px 0 40px 0;
+}
+#resume {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 40px 60px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px 4px #aaaaaa;
+  -webkit-box-shadow: 2px 2px 4px #aaaaaa;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+  font-size: 130%;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+h3 {
+  font-size: 90%;
+  margin: 0.8em 0 0.3em 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  margin: 0 1.5em;
+}
+/* ul immediately after h1 = contact list */
+h1 + ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1 + ul > li {
+  display: inline;
+  white-space: pre;
+  list-style-type: none;
+}
+h1 + ul > li:after {
+  content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+  content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+  margin: 1em 0;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+#pdflink,
+#homepagelink {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  width: 50vw;
+  min-height: 40px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  /* -webkit-animation: 5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  /*animation: 5s linear infinite condemned_blink_effect; */
+  margin: auto;
+}
+#pdflink:hover {
+  background: grey;
+}
+#pdflink a,
+#homepagelink a {
+  font-size: 2.5vw;
+  text-align: center;
+  color: red;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#pdflink:hover a {
+  color: yellow;
+}
+#homepagelink {
+  background: black;
+  left: 0;
+}
+#homepagelink:hover {
+  background: white;
+}
+#homepagelink:hover a {
+  color: black;
+}
+#homepagelink a {
+  color: white;
+}
+
+@media print {
+  #header {
+    display: none;
+  }
+
+  body {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  /* Make links black in PDF */
+  /* Move this outside the print block to apply this in HTML too */
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+}
+@page {
+  /* Change margins and paper size of PDF */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+  size: letter;
+  margin: 0.4in 0.75in;
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<h1>Nick Ouellet</h1>
+<ul>
+<li><a href="mailto:nick@ouellet.dev">nick@ouellet.dev</a></li>
+<li>(860) 591 - 9646</li>
+<li><a href="https://www.ouellet.dev">www.ouellet.dev</a></li>
+<li><a href="https://www.linkedin.com/in/nicholas-ouellet">linkedin.com/in/nicholas-ouellet</a></li>
+<li>Hartford, CT</li>
+</ul>
+<p>Data Scientist and Developer building data and modelling tooling and web frontends.</p>
+<h2>Experience</h2>
+<h3><span>Director of Data Science: Travelers - Personal Insurance AI</span> <span>March 2023 &ndash; Present</span></h3>
+<ul>
+<li>Create prompt techniques and pipelines for solving complex and multi-stage reasoning problems for underwriters</li>
+<li>Develop customer-facing retrieval solutions for insurance comprehension and site navigation</li>
+<li>Multimodal vision-language research and tuning for zero-shot applications </li>
+<li>Lead generative AI research applications for underwriting and discovery</li>
+<li>Lead a team of data scientists on generative AI and deep learning research</li>
+</ul>
+<h3><span>Manager of Data Science: Travelers - Personal Insurance AI</span> <span>March 2022 &ndash; March 2023</span></h3>
+<ul>
+<li>Developing in-house semantic search engine with deep learning based natural language processing</li>
+<li>Building a search frontend with Streamlit and a backend in FastAPI</li>
+<li>Research AutoML Topic Modelling potential</li>
+<li>Train deep vision models on millions of images with unique channel distillation procedures</li>
+</ul>
+<h3><span>Manager of Data Science: Travelers - Claim AI</span> <span>March 2021 &ndash; March 2022</span></h3>
+<ul>
+<li>Developed prediction platform utilizing ElasticSearch backend with React frontend deployed in AWS with Docker for productionalizing and monitoring a deep learning system  </li>
+<li>Managed exploration of techniques to model on extremely long sequences of text in supervised and unsupervised fashions</li>
+<li>Made tooling for deep learning vision and language model unsupervised creation and evaluation</li>
+<li>Constructed a modelling pipeline to pull from a tiled image API with geocoding and spatial manipulation for aerial imagery EDA and robust model creation</li>
+</ul>
+<h3><span>Associate Data Science Researcher: Travelers - Claim AI</span> <span>April 2020 &ndash; March 2021</span></h3>
+<ul>
+<li>Created data-driven deep learning models to solve vision and nlp problems of Travelers claims including chatbots, catastrophy detection, policy verification and segmentation</li>
+<li>Integrated the inherently exploratory data science workflow into a CI/CD development cycle</li>
+<li>Managed an intern to develop a model refresh and enhancement based on integrating unstructured text features and multiclass model consolidation</li>
+<li>Built a tool to extract and parse text data from Hadoop creating tokens for downstream modelling</li>
+</ul>
+<h3><span>Senior Data Science Consultant: Travelers - Claim Research</span> <span>April 2019 &ndash; April 2020</span></h3>
+<ul>
+<li>Led team to deploy the first real-time claim model in a container environment, establishing best practices for production code architecture, real-time model APIs, and operational reporting data storage/retrieval</li>
+<li>Monitored production models to ensure consistent operation and developed a prototype platform for aggregating social media sentiment analysis about the company</li>
+<li>Trained a deep learning vision model that won an enterprise-level national competition (Gartner)</li>
+<li>Designed and implemented a tool for extracting table metadata and executing queries against primary databases.</li>
+</ul>
+<h3><span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 &ndash; April 2019</span></h3>
+<ul>
+<li>Designed and implemented Python machine learning models using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration, utilizing Spark, Python, and SAS for data analysis, and leading trainings on software development best practices for machine learning.</li>
+</ul>
+<h2>Public Company Projects</h2>
+<h3><span>Travelers Wildfire Detection Model and Wind Detection Model</span> <span>November 2018 &ndash; April 2019 and November 2021 &ndash; April 2022</span></h3>
+<ul>
+<li>Trained a vision model to identify homes affected by wildfires from aerial imagery</li>
+<li>Developed a pipeline to train models on other catastrophe aerial imagery</li>
+<li>Trained a vision model and developed a distilled DINO backbone for identifying wind damage sevity from catastrophe events</li>
+</ul>
+<h2>Education</h2>
+<h3><span>University of Connecticut</span> <span>September 2016 &ndash; June 2017</span></h3>
+<ul>
+<li>Master of Science in Mathematics</li>
+<li>GPA: 4.16/4.00</li>
+</ul>
+<h3><span>Brandeis University</span> <span>September 2012 &ndash; December 2015</span></h3>
+<ul>
+<li>Bachelor of Arts, magna cum laude, Mathematics with honors</li>
+<li>Minors: Computer Science, Economics</li>
+<li>GPA: 3.72/4.00, Dean&rsquo;s List all semesters</li>
+</ul>
+<h2>Skills</h2>
+<ul>
+<li>Web development: HTML, CSS (SCSS), JavaScript, React, NodeJS, Express, Graphql, Apollo, Flask</li>
+<li>Machine Learning and Data Science: Python, Pandas, Scikit-Learn, Pytorch, XGBoost, SQL, PySpark, SAS</li>
+<li>General: Rust, Lua, Docker, AWS, MongoDB, ElasticSearch, Neo4J (w/ Neo4JGraphql), Git, Github (+ Actions), Shell (Bash + common tools), Make</li>
+</ul></div>
+</body>
+</html>

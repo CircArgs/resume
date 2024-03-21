@@ -44,7 +44,7 @@ Data Scientist and Developer building data and modelling tooling and web fronten
 ### <span>Data Science Consultant: Travelers - Claim Research</span> <span>October 2017 -- April 2019</span>
 - Designed and implemented Python machine learning models using the Model as a Service (MaaS) delivery framework for real-time cloud-hosted integration, utilizing Spark, Python, and SAS for data analysis, and leading trainings on software development best practices for machine learning.
 
-## Public Company Projects
+## Prominent Public Projects
 
 ### <span>Travelers Wildfire Detection Model and Wind Detection Model</span> <span>November 2018 -- April 2019 and November 2021 -- April 2022</span>
 - Trained a vision model to identify homes affected by wildfires from aerial imagery
